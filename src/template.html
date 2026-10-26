@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+</head>
+<body>
+<main class="app-container">
+  <div class="controls">
+    <form id="search-form">
+      <input 
+        type="text" 
+        id="location-input" 
+        placeholder="Enter city name..." 
+        required
+      />
+      <button type="submit">Search</button>
+    </form>
+    <button id="unit-toggle" class="toggle-btn">°F / °C</button>
+  </div>
+
+  <div id="weather-display" class="weather-card">
+    <p class="placeholder-text">Search for a location to view weather.</p>
+  </div>
+</main>
+</body>
+</html>
